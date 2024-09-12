@@ -12,15 +12,20 @@ body {
   font-family: "outfit", sans-serif;
   background-color: #d6e2f0;
   color: #68778d;
+  height: 100%;
+}
+
+.card {
+  padding-top: 9.6rem;
 }
 
 .qr-card {
-  margin: 8rem auto;
+  margin: 0 auto;
   padding: 1.6rem;
   background-color: #ffffff;
   width: 32rem;
   border-radius: 20px;
-  box-shadow: 0rem 0.6rem 1.2rem rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 0.6px 1.2px rgba(0, 0, 0, 0.03);
 }
 
 .qr-content {
@@ -45,6 +50,11 @@ p {
   color: #68778d;
   font-size: 1.5rem;
 }
+
+.attribution {
+  margin-top: 8.4rem;
+}
+
 footer {
   text-align: center;
 }
